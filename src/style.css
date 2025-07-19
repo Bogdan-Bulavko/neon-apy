@@ -1,83 +1,10 @@
-@import '../src/pages/Home/src/Home.css';
-* {
-  padding: 0;
-  margin: 0;
-  border: 0;
-}
+@import 'tailwindcss';
 
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-:focus,
-:active {
-  outline: none;
-}
-
-a:focus,
-a:active {
-  outline: none;
-}
-
-html,
-body {
-  height: 100%;
-  width: 100%;
-  font-size: 100%;
-  line-height: 1;
-  font-size: 14px;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-}
-
-input,
-button,
-textarea {
-  font-family: inherit;
-}
-
-input::-ms-clear {
-  display: none;
-}
-
-button {
-  cursor: pointer;
-}
-
-button::-moz-focus-inner {
-  padding: 0;
-  border: 0;
-}
-
-a,
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-.nav__list li {
-  list-style: none;
-}
-
-img {
-  vertical-align: top;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: inherit;
-  font-weight: 400;
+@theme {
+  --color-blue-home: rgba(53, 51, 205);
+  --color-blue: rgb(81, 112, 255);
+  --color-subtext: rgb(167, 166, 166);
+  /* ... */
 }
 
 body {
@@ -85,34 +12,4 @@ body {
   padding-top: 100px;
   background: black;
   color: white;
-}
-
-#app {
-  max-width: 360px;
-  margin: 0 auto;
-  padding: 40px;
-  min-height: 100%;
-  background: radial-gradient(
-    circle,
-    rgba(53, 51, 205, 1) 0%,
-    rgba(0, 0, 0, 1) 100%
-  );
-}
-
-.button-black {
-  padding: 4px 12px;
-  margin-top: 10px;
-  min-width: 80px;
-  font-size: 1em;
-  font-weight: 700;
-  color: white;
-  background: black;
-  border-radius: 20px;
-}
-
-.avatar-profile {
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
-  background: white;
 }

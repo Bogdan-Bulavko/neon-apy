@@ -1,28 +1,28 @@
 <script setup></script>
 
 <template>
-  <div class="timer-home">
+  <div class="mb-7 flex justify-center text-4xl font-bold">
     <div>
       <p>39</p>
-      <p class="timer-home__comment">Дней</p>
+      <p class="mt-1.5 text-base font-thin text-subtext">Дней</p>
     </div>
 
-    <span class="timer-home__colon">:</span>
+    <span class="mx-[3px]">:</span>
     <div>
       <p>23</p>
-      <p class="timer-home__comment">Часов</p>
+      <p class="mt-1.5 text-base font-thin text-subtext">Часов</p>
     </div>
 
-    <span class="timer-home__colon">:</span>
+    <span class="mx-[3px]">:</span>
     <div>
       <p>20</p>
-      <p class="timer-home__comment">Минут</p>
+      <p class="mt-1.5 text-base font-thin text-subtext">Минут</p>
     </div>
 
-    <span class="timer-home__colon">:</span>
+    <span class="mx-[3px]">:</span>
     <div>
       <p>15</p>
-      <p class="timer-home__comment">Секунд</p>
+      <p class="mt-1.5 text-base font-thin text-subtext">Секунд</p>
     </div>
   </div>
 </template>
