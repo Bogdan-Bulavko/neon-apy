@@ -7,7 +7,7 @@ import TotalBank from './components/TotalBank.vue';
 </script>
 
 <template>
-  <div class="p-10">
+  <div class="p-7">
     <HeaderHome></HeaderHome>
     <TimerHome></TimerHome>
     <TotalBank></TotalBank>

@@ -3,39 +3,39 @@
 <template>
   <menu>
     <div>
-      <ul class="mb-1 flex justify-center">
+      <ul class="flex justify-center">
         <li class="relative -translate-x-30">
-          <img src="./public/die.webp" alt="" class="h-16 min-w-70" />
+          <img src="./public/die.webp" alt="" class="h-14 min-w-70" />
           <img
             src="./public/money-turnover.webp"
             alt="money-turnover"
-            class="w-11 absolute top-2 right-3"
+            class="w-11 absolute top-1 right-3"
           />
         </li>
         <li class="relative translate-x-30">
-          <img src="./public/die.webp" alt="" class="h-16 min-w-70" />
+          <img src="./public/die.webp" alt="" class="h-14 min-w-70" />
           <img
             src="./public/friends.webp"
             alt="friends"
-            class="w-11 absolute top-2 left-3"
+            class="w-11 absolute top-1 left-3"
           />
         </li>
       </ul>
       <ul class="flex justify-center">
         <li class="relative -translate-x-30">
-          <img src="./public/die.webp" alt="" class="h-16 min-w-70" />
+          <img src="./public/die.webp" alt="" class="h-14 min-w-70" />
           <img
             src="./public/home.webp"
             alt="home"
-            class="w-11 absolute top-2 right-3"
+            class="w-11 absolute top-1 right-3"
           />
         </li>
         <li class="relative translate-x-30">
-          <img src="./public/die.webp" alt="" class="h-16 min-w-70" />
+          <img src="./public/die.webp" alt="" class="h-14 min-w-70" />
           <img
             src="./public/wallet.webp"
             alt="wallet"
-            class="w-11 absolute top-2 left-3"
+            class="w-11 absolute top-1 left-3"
           />
         </li>
       </ul>
