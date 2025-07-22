@@ -27,7 +27,7 @@
           <img
             src="./public/home.webp"
             alt="home"
-            class="w-11 absolute top-1 right-3"
+            class="w-11 h-11 absolute top-1 right-3"
           />
         </li>
         <li class="relative translate-x-30">
