@@ -1,20 +1,21 @@
 <script setup>
-import HeaderHome from './components/HeaderHome.vue';
-import MenuHome from './components/MenuHome.vue';
-import RouletteHome from './components/RouletteHome.vue';
-import TimerHome from './components/TimerHome.vue';
-import TotalBank from './components/TotalBank.vue';
+import HeaderHome from './HeaderHome.vue';
+import Menu from '../../../components/Menu.vue';
+import RouletteHome from './RouletteHome.vue';
+import TimerHome from './TimerHome.vue';
+import TotalBank from './TotalBank.vue';
 </script>
 
 <template>
-  <div class="p-7">
+  <div
+    class="pb-52 relative p-7 bg-radial from-blue-home from-40% to-black overflow-hidden"
+  >
     <HeaderHome></HeaderHome>
     <TimerHome></TimerHome>
     <TotalBank></TotalBank>
     <RouletteHome></RouletteHome>
+    <Menu></Menu>
   </div>
-
-  <MenuHome></MenuHome>
 </template>
 
 <style scoped></style>

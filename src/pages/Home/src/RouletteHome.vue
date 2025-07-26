@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="relative w-70 h-72">
+  <div class="relative m-auto w-70 h-72">
     <div class="absolute right-5 top-16 w-18">
       <img src="./public/cybersheild.webp" alt="cybersheild" />
     </div>
@@ -17,13 +17,9 @@
     </div>
 
     <div
-      class="absolute top-[86px] left-8.5 w-[233px] rotate-180 clip text-base text-[#5c5b5a] font-bold"
+      class="absolute top-[86px] left-8.5 w-58 rotate-180 clip text-base text-[#5c5b5a] font-bold"
     >
-      <img
-        src="./public/roulette.webp"
-        alt="roulette"
-        class="h-[259px] w-[230px]"
-      />
+      <img src="./public/roulette.webp" alt="roulette" class="h-65 w-58" />
       <div class="absolute bottom-11 right-11 flex items-center rotate-180">
         <img src="./public/tokencoin.webp" alt="tokencoin" class="w-4" />
         <span class="text-[14px]">5</span>
