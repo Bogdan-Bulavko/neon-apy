@@ -4,8 +4,8 @@ import App from './App.vue';
 
 import { createMemoryHistory, createRouter } from 'vue-router';
 
-import Home from './pages/Home/src/Home.vue';
-import Profile from './pages/Profile/src/Profile.vue';
+import Home from './pages/Home.vue';
+import Profile from './pages/Profile.vue';
 
 const routes = [
   { path: '/', component: Home },

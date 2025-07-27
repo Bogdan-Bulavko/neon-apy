@@ -8,7 +8,7 @@
         <div class="pt-1 mr-1 w-35 flex flex-col items-center">
           <h3 class="text-[12px] font-bold">Новобранец</h3>
           <img
-            src="./public/rookie.webp"
+            src="./img/rookie.webp"
             alt="rookie"
             class="mb-2 w-11 text-center"
           />
@@ -50,7 +50,7 @@
           </ul>
           <div class="mt-2 flex items-center">
             <img
-              src="./public/info-subs.png"
+              src="./img/info-subs.png"
               alt="info-subs"
               class="mr-1 w-2 h-4"
             />
@@ -65,7 +65,7 @@
         <div class="pt-1 mr-1 w-35 flex flex-col items-center">
           <h3 class="text-[12px] font-bold">Боец</h3>
           <img
-            src="./public/fighter.webp"
+            src="./img/fighter.webp"
             alt="fighter"
             class="mb-2 w-16 h-14 text-center"
           />
@@ -107,7 +107,7 @@
           </ul>
           <div class="mt-1 flex items-center">
             <img
-              src="./public/info-subs.png"
+              src="./img/info-subs.png"
               alt="info-subs"
               class="mr-1 w-2 h-4"
             />
@@ -123,7 +123,7 @@
         <div class="pt-1 mr-1 w-35 flex flex-col items-center">
           <h3 class="text-[12px] font-bold">Ветеран</h3>
           <img
-            src="./public/veteran.webp"
+            src="./img/veteran.webp"
             alt="veteran"
             class="mb-2 w-20 h-14 text-center"
           />
@@ -165,7 +165,7 @@
           </ul>
           <div class="mt-1 flex items-center">
             <img
-              src="./public/info-subs.png"
+              src="./img/info-subs.png"
               alt="info-subs"
               class="mr-1 w-2 h-4"
             />
