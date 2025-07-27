@@ -4,9 +4,9 @@
   <div class="mt-2">
     <p class="mb-1 pl-3 font-bold">Подписка</p>
     <ul class="max-w-75 m-auto">
-      <li class="mb-2 flex bg-blue-home rounded-lg">
+      <li class="mb-2 flex bg-blue-card rounded-lg">
         <div class="pt-1 mr-1 w-35 flex flex-col items-center">
-          <h3 class="text-[12px] font-bold">Новобранец</h3>
+          <h3 class="text-xs font-bold">Новобранец</h3>
           <img
             src="./img/rookie.webp"
             alt="rookie"
@@ -61,9 +61,9 @@
           </div>
         </div>
       </li>
-      <li class="mb-2 flex bg-blue-home rounded-lg">
+      <li class="mb-2 flex bg-blue-card rounded-lg">
         <div class="pt-1 mr-1 w-35 flex flex-col items-center">
-          <h3 class="text-[12px] font-bold">Боец</h3>
+          <h3 class="text-xs font-bold">Боец</h3>
           <img
             src="./img/fighter.webp"
             alt="fighter"
@@ -119,9 +119,9 @@
           </div>
         </div>
       </li>
-      <li class="mb-2 flex bg-blue-home rounded-lg">
+      <li class="mb-2 flex bg-blue-card rounded-lg">
         <div class="pt-1 mr-1 w-35 flex flex-col items-center">
-          <h3 class="text-[12px] font-bold">Ветеран</h3>
+          <h3 class="text-xs font-bold">Ветеран</h3>
           <img
             src="./img/veteran.webp"
             alt="veteran"

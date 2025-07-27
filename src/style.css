@@ -2,7 +2,7 @@
 
 @theme {
   --color-blue-home: rgba(53, 51, 205);
-  --color-blue: rgb(81, 112, 255);
+  --color-blue-card: rgb(81, 112, 255, 0.6);
   --color-subtext: rgb(167, 166, 166);
   /* ... */
 }

@@ -3,7 +3,7 @@
 <template>
   <menu class="absolute bottom-0 right-0 left-0">
     <div>
-      <ul class="flex justify-center opacity-45">
+      <ul class="flex justify-center">
         <li class="relative -translate-x-30 max-[375px]:-translate-x-25">
           <img src="../public/die.webp" alt="" class="h-14 min-w-70" />
           <img
@@ -23,7 +23,7 @@
           </RouterLink>
         </li>
       </ul>
-      <ul class="flex justify-center opacity-45">
+      <ul class="flex justify-center">
         <li class="relative -translate-x-30 max-[375px]:-translate-x-25">
           <RouterLink to="/">
             <img src="../public/die.webp" alt="" class="h-14 min-w-70" />
