@@ -1,10 +1,7 @@
-<script setup>
-import Home from './pages/Home/src/Home.vue';
-import Profile from './pages/Profile/src/Profile.vue';
-</script>
+<script setup></script>
 
 <template>
-  <Profile></Profile>
+  <RouterView></RouterView>
 </template>
 
 <style scoped></style>

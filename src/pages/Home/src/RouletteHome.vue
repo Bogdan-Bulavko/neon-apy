@@ -35,7 +35,7 @@
     </div>
 
     <div
-      class="absolute -bottom-3 left-4 w-[260px] h-37 p-2 bg-[#5c5b5a80] rounded-2xl font-bold"
+      class="absolute -bottom-3 left-4 w-[260px] max-[375px]:w-[245px] h-37 p-2 bg-[#5c5b5a80] rounded-2xl font-bold"
     >
       <div class="flex items-center gap-3">
         <p class="leading-4">

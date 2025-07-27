@@ -3,7 +3,7 @@
 <template>
   <div class="mt-2">
     <p class="mb-1 pl-3 font-bold">Подписка</p>
-    <ul>
+    <ul class="max-w-75 m-auto">
       <li class="mb-2 flex bg-blue-home rounded-lg">
         <div class="pt-1 mr-1 w-35 flex flex-col items-center">
           <h3 class="text-[12px] font-bold">Новобранец</h3>
@@ -22,7 +22,7 @@
           <div class="pl-3.5 text-xs text-[#00bf63] font-bold">
             <div class="flex items-center">
               <span class="mr-4">Цена:</span>
-              <span class="text-lg text-white"
+              <span class="text-lg max-[375px]:text-base text-white"
                 >1 T + <span class="text-red-600">3%</span></span
               >
             </div>
@@ -79,7 +79,9 @@
           <div class="pl-3.5 text-xs text-[#00bf63] font-bold">
             <div class="flex items-center">
               <span class="mr-4">Цена:</span>
-              <span class="text-lg text-white">10 T </span>
+              <span class="text-lg max-[375px]:text-base text-white"
+                >10 T
+              </span>
             </div>
             <p class="leading-0">Преймущества:</p>
           </div>
@@ -135,7 +137,9 @@
           <div class="pl-3.5 text-xs text-[#00bf63] font-bold">
             <div class="flex items-center">
               <span class="mr-4">Цена:</span>
-              <span class="text-lg text-white">100 T </span>
+              <span class="text-lg max-[375px]:text-base text-white"
+                >100 T
+              </span>
             </div>
             <p class="leading-0">Преймущества:</p>
           </div>

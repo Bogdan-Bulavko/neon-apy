@@ -1,5 +1,22 @@
-import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
+import { createApp } from 'vue';
+import './style.css';
+import App from './App.vue';
 
-createApp(App).mount('#app')
+import { createMemoryHistory, createRouter } from 'vue-router';
+
+import Home from './pages/Home/src/Home.vue';
+import Profile from './pages/Profile/src/Profile.vue';
+
+const routes = [
+  { path: '/', component: Home },
+  { path: '/profile', component: Profile },
+];
+
+const router = createRouter({
+  history: createMemoryHistory(),
+  routes,
+});
+
+const app = createApp(App);
+app.use(router);
+app.mount('#app');

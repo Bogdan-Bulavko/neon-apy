@@ -8,7 +8,7 @@ import TotalBank from './TotalBank.vue';
 
 <template>
   <div
-    class="pb-52 relative p-7 bg-radial from-blue-home from-40% to-black overflow-hidden"
+    class="pb-52 relative p-7 max-[425px]:min-h-dvh bg-radial from-blue-home from-40% to-black overflow-hidden"
   >
     <HeaderHome></HeaderHome>
     <TimerHome></TimerHome>
