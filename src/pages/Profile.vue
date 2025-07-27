@@ -7,7 +7,7 @@ import Menu from '../components/Menu.vue';
 
 <template>
   <section
-    class="px-9 pt-9 min-h-dvh max-[375px]:px-6 relative bg-linear-to-t from-blue-home to-black overflow-hidden"
+    class="px-9 min-h-dvh max-[375px]:px-6 relative bg-linear-to-t from-blue-home to-black overflow-hidden"
   >
     <NavigationProfile></NavigationProfile>
     <div class="mt-3 w-full relative">
