@@ -10,7 +10,7 @@ import SubscriptionListProfile from './SubscriptionListProfile.vue';
       <img src="./img/info.png" alt="info" class="w-6" />
     </div>
     <div class="mt-1 flex justify-center gap-1">
-      <a href="#" class="text-[10px] font-bold text-subtext"
+      <a href="#" class="text-[10px] font-bold"
         >https://t.me/m5bank_bot?star...</a
       ><img src="./img/copy.png" alt="copy" class="w-[14px] h-[14px]" />
     </div>
@@ -18,9 +18,9 @@ import SubscriptionListProfile from './SubscriptionListProfile.vue';
   <DeadlineSheetProfile></DeadlineSheetProfile>
   <SubscriptionListProfile></SubscriptionListProfile>
   <div>
-    <p class="pl-2 font-bold">Возможности</p>
+    <p class="pl-2 font-bold text-gold">Возможности</p>
     <div
-      class="p-1 flex justify-center gap-10 items-center bg-blue-card rounded-full"
+      class="p-1 flex justify-center gap-10 items-center bg-gold-card rounded-full"
     >
       <img src="./img/possibilities.webp" alt="possibilities" class="w-11" />
       <span class="font-bold">Рефералы</span>

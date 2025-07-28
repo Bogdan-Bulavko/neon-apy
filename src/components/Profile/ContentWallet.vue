@@ -3,13 +3,13 @@
 <template>
   <div class="mt-3 w-full">
     <div
-      class="max-w-36 mt-9 m-auto text-center bg-black rounded-xl text-[10px] font-bold"
+      class="max-w-36 mt-9 m-auto text-center bg-gold-card rounded-xl text-[10px] font-bold"
     >
       Кошелёк привязан
     </div>
     <div class="mt-14">
       <div class="mb-6 flex justify-between">
-        <div class="py-2 px-3 flex gap-3 bg-blue-card rounded-2xl">
+        <div class="py-2 px-3 flex gap-3 bg-gold-card rounded-2xl">
           <img
             src="../Home/img/money.webp"
             alt="money"
@@ -20,7 +20,7 @@
             <span class="text-sm font-bold text-red-700">30</span>
           </div>
         </div>
-        <div class="py-2 px-3 flex gap-3 bg-blue-card rounded-2xl">
+        <div class="py-2 px-3 flex gap-3 bg-gold-card rounded-2xl">
           <img
             src="../Home/img/tokencoin.webp"
             alt="tokencoin"
@@ -33,7 +33,7 @@
         </div>
       </div>
       <div
-        class="pl-5 mb-5 py-1 flex items-center gap-5 bg-blue-card rounded-2xl"
+        class="pl-5 mb-5 py-1 flex items-center gap-5 bg-gold-card rounded-2xl"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +54,7 @@
           <span class="text-sm font-bold text-red-700">150</span>
         </div>
       </div>
-      <div class="mb-8 py-1 pl-2 flex items-center bg-blue-card rounded-full">
+      <div class="mb-8 py-1 pl-2 flex items-center bg-gold-card rounded-full">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="200"
@@ -74,16 +74,16 @@
         </p>
       </div>
       <div class="text-center">
-        <button class="min-w-45 py-2 mb-5 bg-blue-card rounded-2xl">
+        <button class="min-w-45 py-2 mb-5 bg-gold-card rounded-2xl">
           <p class="text-sm font-bold">Пополнить кошелёк</p>
         </button>
-        <button class="min-w-45 py-2 mb-5 bg-blue-card rounded-2xl">
+        <button class="min-w-45 py-2 mb-5 bg-gold-card rounded-2xl">
           <p class="text-sm font-bold">
             <span class="block"> Подкючить </span
             ><span class="block">личный кошелёк</span>
           </p>
         </button>
-        <button class="min-w-45 py-2 mb-5 bg-blue-card rounded-2xl">
+        <button class="min-w-45 py-2 mb-5 bg-gold-card rounded-2xl">
           <p class="text-sm font-bold">Вывести</p>
         </button>
       </div>

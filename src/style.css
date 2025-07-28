@@ -4,6 +4,9 @@
   --color-blue-home: rgba(53, 51, 205);
   --color-blue-card: rgb(81, 112, 255, 0.6);
   --color-subtext: rgb(167, 166, 166);
+  --color-metal-home: rgb(151, 151, 151);
+  --color-gold: rgb(255, 232, 2);
+  --color-gold-card: rgb(255, 206, 0);
   /* ... */
 }
 

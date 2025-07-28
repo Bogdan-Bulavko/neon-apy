@@ -2,9 +2,9 @@
 
 <template>
   <div class="mt-2">
-    <p class="mb-1 pl-3 font-bold">Подписка</p>
+    <p class="mb-1 pl-3 font-bold text-gold">Подписка</p>
     <ul class="max-w-75 m-auto">
-      <li class="mb-2 flex bg-blue-card rounded-lg">
+      <li class="mb-2 flex bg-gold-card rounded-lg">
         <div class="pt-1 mr-1 w-35 flex flex-col items-center">
           <h3 class="text-xs font-bold">Новобранец</h3>
           <img
@@ -61,7 +61,7 @@
           </div>
         </div>
       </li>
-      <li class="mb-2 flex bg-blue-card rounded-lg">
+      <li class="mb-2 flex bg-gold-card rounded-lg">
         <div class="pt-1 mr-1 w-35 flex flex-col items-center">
           <h3 class="text-xs font-bold">Боец</h3>
           <img
@@ -119,7 +119,7 @@
           </div>
         </div>
       </li>
-      <li class="mb-2 flex bg-blue-card rounded-lg">
+      <li class="mb-2 flex bg-gold-card rounded-lg">
         <div class="pt-1 mr-1 w-35 flex flex-col items-center">
           <h3 class="text-xs font-bold">Ветеран</h3>
           <img

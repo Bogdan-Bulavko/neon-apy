@@ -44,7 +44,7 @@
         </p>
         <div class="w-full flex items-center justify-between">
           <div class="flex items-center gap-2">
-            <img src="./img/money.webp" alt="money" class="w-7 h-7" />
+            <img src="./img/currency.png" alt="money" class="w-7 h-7" />
             <span>30</span>
           </div>
 
@@ -59,14 +59,14 @@
         </div>
       </div>
       <div
-        class="absolute bottom-0 w-full left-0 py-3 opacity-40 border-3 border-whie bg-[#5170ff] rounded-2xl"
+        class="absolute bottom-0 w-full left-0 py-3 border-3 border-whie bg-gold rounded-2xl"
       >
         <p class="text-center text-2xl">Застейкать</p>
       </div>
     </div>
     <div class="absolute left-2 top-23 w-16 h-13 rotate-12">
       <img src="./img/arrow.png" alt="arrow" />
-      <span class="absolute top-2.5 left-1 text-[#fddc5c] font-bold text-[12px]"
+      <span class="absolute top-2.5 left-1 text-gold font-bold text-[12px]"
         >РУЛЕТКА</span
       >
       <div class="absolute top-8 w-16 rotate-160">

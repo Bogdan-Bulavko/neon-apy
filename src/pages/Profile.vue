@@ -9,7 +9,9 @@ const store = useActiveBlockStore();
 </script>
 
 <template>
-  <section class="bg-linear-to-t from-blue-home to-black overflow-hidden">
+  <section
+    class="bg-linear-to-t from-white from-1% to-metal-home overflow-hidden"
+  >
     <div class="max-w-90 m-auto px-9 min-h-dvh max-[375px]:px-6 relative">
       <RouterLink to="/">
         <svg
