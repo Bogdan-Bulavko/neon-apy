@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <menu class="pb-1 absolute bottom-0 right-0 left-0 overflow-x-hidden">
+  <menu class="pb-1 z-10 absolute bottom-0 right-0 left-0 overflow-x-hidden">
     <div class="flex justify-between items-end">
       <div class="relative -translate-x-18 max-[375px]:-translate-x-15">
         <img src="../public/die.webp" alt="" class="h-14 w-70" />

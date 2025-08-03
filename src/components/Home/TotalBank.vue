@@ -12,7 +12,7 @@ const formatNumber = (num) => {
 
 // Анимация счётчика
 const startCounter = () => {
-  const duration = 1000;
+  const duration = 3000;
   const startTime = performance.now();
 
   const animate = (currentTime) => {
@@ -71,12 +71,10 @@ onMounted(() => {
 @keyframes moon-glow {
   0%,
   100% {
-    filter: brightness(1.1);
     text-shadow: 0 0 4px rgba(255, 255, 150, 0.4),
       0 0 8px rgba(255, 255, 180, 0.2), 0 0 12px rgba(255, 240, 200, 0.1);
   }
   50% {
-    filter: brightness(1.3);
     text-shadow: 0 0 6px rgba(255, 255, 180, 0.5),
       0 0 12px rgba(255, 255, 200, 0.3), 0 0 16px rgba(255, 255, 220, 0.2);
   }
