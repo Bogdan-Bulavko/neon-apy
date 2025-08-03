@@ -7,10 +7,12 @@ import { createPinia } from 'pinia';
 
 import Home from './pages/Home.vue';
 import Profile from './pages/Profile.vue';
+import Hunt from './pages/Hunt.vue';
 
 const routes = [
   { path: '/', component: Home },
   { path: '/profile', component: Profile },
+  { path: '/hunt', component: Hunt },
 ];
 
 const router = createRouter({

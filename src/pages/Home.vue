@@ -7,8 +7,7 @@ import TotalBank from '../components/Home/TotalBank.vue';
 </script>
 
 <template>
-  <main class="min-h-dvh overflow-hidden text-white">
-    <!-- Контент -->
+  <main class="min-h-dvh overflow-hidden">
     <div class="max-w-90 m-auto px-7 pt-7">
       <HeaderHome />
       <TimerHome />

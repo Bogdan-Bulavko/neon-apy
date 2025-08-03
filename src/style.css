@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: var(--font-sans);
   background: black;
   color: white;
 }

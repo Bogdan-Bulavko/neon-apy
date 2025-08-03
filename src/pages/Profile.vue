@@ -28,8 +28,12 @@ const store = useActiveBlockStore();
       </RouterLink>
       <NavigationProfile></NavigationProfile>
 
-      <ContentProfile v-if="store.activeBlock === 'profile'"></ContentProfile>
-      <ContentWallet v-if="store.activeBlock === 'wallet'"></ContentWallet>
+      <ContentProfile
+        v-if="store.activeBlockProfile === 'profile'"
+      ></ContentProfile>
+      <ContentWallet
+        v-if="store.activeBlockProfile === 'wallet'"
+      ></ContentWallet>
     </div>
   </section>
 </template>

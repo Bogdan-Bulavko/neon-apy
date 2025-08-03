@@ -12,7 +12,7 @@ const formatNumber = (num) => {
 
 // Анимация счётчика
 const startCounter = () => {
-  const duration = 3000;
+  const duration = 2000;
   const startTime = performance.now();
 
   const animate = (currentTime) => {

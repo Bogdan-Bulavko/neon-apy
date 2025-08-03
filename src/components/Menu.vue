@@ -11,7 +11,7 @@
           class="w-9 h-9 absolute top-2 right-2"
         />
       </div>
-      <div class="min-w-21">
+      <RouterLink class="min-w-21" to="/hunt/">
         <img
           src="../public/lion-trail.webp"
           alt="hunting"
@@ -22,7 +22,19 @@
         >
           Охота
         </p>
-      </div>
+      </RouterLink>
+      <!-- <div class="min-w-21">
+        <img
+          src="../public/lion-trail.webp"
+          alt="hunting"
+          class="block w-21 m-auto"
+        />
+        <p
+          class="absolute top-13 left-1/2 -translate-x-1/2 -translate-y-1/2 text-base text-[#99abff] text-shadow-xs text-shadow-gold text-stroke-blue"
+        >
+          Охота
+        </p>
+      </div> -->
       <div class="relative translate-x-18 max-[375px]:translate-x-15">
         <RouterLink to="/profile/">
           <img src="../public/die.webp" alt="" class="h-14 w-70" />

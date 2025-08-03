@@ -1,7 +1,4 @@
-<script setup>
-import DeadlineSheetProfile from './DeadlineSheetProfile.vue';
-import SubscriptionListProfile from './SubscriptionListProfile.vue';
-</script>
+<script setup></script>
 
 <template>
   <div class="mt-3 w-full relative">
@@ -15,8 +12,6 @@ import SubscriptionListProfile from './SubscriptionListProfile.vue';
       ><img src="./img/copy.png" alt="copy" class="w-[14px] h-[14px]" />
     </div>
   </div>
-  <DeadlineSheetProfile></DeadlineSheetProfile>
-  <SubscriptionListProfile></SubscriptionListProfile>
   <div>
     <p class="pl-2 font-bold text-gold">Возможности</p>
     <div

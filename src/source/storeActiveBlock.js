@@ -2,10 +2,15 @@ import { defineStore } from 'pinia';
 import { ref } from 'vue';
 
 export const useActiveBlockStore = defineStore('activeBlock', () => {
-  const activeBlock = ref('profile');
+  const activeBlockProfile = ref('profile');
+  const activeBlockHunt = ref('subscriptions');
 
   const onActiveBlock = (value) => {
-    activeBlock.value = value;
+    if (value === 'profile' || value === 'wallet') {
+      activeBlockProfile.value = value;
+    } else {
+      activeBlockHunt.value = value;
+    }
   };
-  return { activeBlock, onActiveBlock };
+  return { activeBlockProfile, activeBlockHunt, onActiveBlock };
 });
