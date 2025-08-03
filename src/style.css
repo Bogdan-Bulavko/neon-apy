@@ -15,3 +15,362 @@ body {
   background: black;
   color: white;
 }
+
+.container {
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.home {
+  min-height: 100dvh;
+  overflow: hidden;
+}
+
+.home--container {
+  padding: 28px 28px 0 28px;
+}
+
+.home__header {
+  margin-bottom: 20px;
+}
+
+.home__header__avatar {
+  margin: auto;
+  width: 55px;
+  height: 55px;
+  background: white;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.home__header__avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.home__timer {
+  margin-bottom: 28px;
+  display: flex;
+  justify-content: center;
+}
+
+.home__timer__time {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.home__timer__comment {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 0;
+}
+
+.home__timer__disintegrator-time {
+  font-size: 34px;
+  font-weight: 700;
+  margin: 0 2px 0 2px;
+}
+
+.home__total-bank {
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.home__total-bank__paragraph {
+  margin-bottom: 4px;
+  font-size: 60px;
+  font-weight: 600;
+  background-image: linear-gradient(to bottom, #f7fafc, #f7f77b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@media (width < 375px) {
+  .home__total-bank__paragraph {
+    font-size: 48px;
+  }
+}
+
+.home__central-content {
+  position: relative;
+  margin: auto 0;
+  width: 280px;
+  height: 288px;
+}
+
+.home__central-content__cybersheild {
+  position: absolute;
+  right: 20px;
+  top: 64px;
+  width: 72px;
+}
+
+.home__central-content__coin {
+  position: absolute;
+  left: 32px;
+  top: 48px;
+  width: 76px;
+  height: 76px;
+}
+
+.home__central-content__progress {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 120px;
+}
+
+.home__central-content__progress img {
+  height: 116px;
+  width: 123px;
+}
+
+.home__central-content__roulette {
+  position: absolute;
+  top: 86px;
+  left: 34px;
+  width: 232px;
+  height: 260px;
+  font-size: 14px;
+  font-weight: 700;
+  rotate: 180deg;
+}
+
+.home__central-content__roulette__roulette-img {
+  height: 100%;
+  width: 100%;
+}
+
+.home__central-content__roulette__sector-1 {
+  position: absolute;
+  bottom: 44px;
+  right: 44px;
+  display: flex;
+  align-items: center;
+  transform: rotate(180deg);
+}
+
+.home__central-content__roulette__sector-2 {
+  position: absolute;
+  bottom: 36px;
+  right: 88px;
+  display: flex;
+  align-items: center;
+  transform: rotate(180deg);
+}
+
+.home__central-content__roulette__sector-3 {
+  position: absolute;
+  bottom: 48px;
+  left: 68px;
+  display: flex;
+  align-items: center;
+  transform: rotate(180deg);
+}
+
+.home__central-content__roulette__sector-1 img {
+  width: 16px;
+}
+.home__central-content__roulette__sector-2 img {
+  width: 16px;
+}
+.home__central-content__roulette__sector-3 img {
+  width: 16px;
+}
+
+.home__central-content__roulette__table {
+  position: absolute;
+  padding: 8px;
+  width: 235px;
+  height: 148px;
+  left: 50%;
+  bottom: -12px;
+  transform: translateX(-50%);
+  background: #5c5b5a80;
+  border-radius: 16px;
+  font-weight: bold;
+}
+
+.home__central-content__roulette__table__profit-information {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.home__central-content__roulette__table__profit-information p {
+  line-height: 16px;
+}
+
+.home__central-content__roulette__table__profit-information p span {
+  display: block;
+}
+
+.home__central-content__roulette__table__profit-information__result {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home__central-content__roulette__table__profit-information__result__currency {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.home__central-content__roulette__table__profit-information__result__currency
+  img {
+  width: 28px;
+  height: 28px;
+}
+
+.home__central-content__roulette__table__profit-information__result__dollar {
+  margin-right: 20px;
+}
+
+.home__central-content__roulette__table__profit-information__result__token {
+  margin-top: 12px;
+  display: flex;
+  gap: 12px;
+}
+
+.home__central-content__roulette__table__profit-information__result__token div {
+  display: flex;
+  gap: 4px;
+}
+
+.home__central-content__roulette__table__profit-information__result__token
+  div
+  img {
+  width: 28px;
+  height: 28px;
+}
+
+.home__central-content__roulette__table__button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 12px 0;
+  width: 100%;
+  border-width: 3px;
+  border-radius: 16px;
+  background: gold;
+}
+
+.home__central-content__roulette__table__button p {
+  text-align: center;
+  font-size: 24px;
+}
+
+.home__central-content__roulette__arrow-button {
+  position: absolute;
+  left: 8px;
+  top: 92px;
+  width: 64px;
+  height: 52px;
+  rotate: 12deg;
+}
+
+.home__central-content__roulette__arrow-button__arrow-text {
+  position: absolute;
+  top: 10px;
+  left: 4px;
+  color: gold;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.home__central-content__roulette__arrow-button__button-container {
+  position: absolute;
+  top: 32px;
+  width: 64px;
+  rotate: 160deg;
+}
+
+.home__central-content__roulette__arrow-button__button-container img {
+  height: 28px;
+}
+
+.home__central-content__roulette__arrow-button__button-container__text {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  text-align: center;
+  font-size: 8px;
+  line-height: 8px;
+  rotate: 192deg;
+}
+
+.home__central-content__roulette__arrow-button__button-container__text span {
+  display: block;
+}
+
+.home__menu {
+  padding-bottom: 4px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  overflow-x: hidden;
+  z-index: 10;
+}
+
+.home__menu__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.home__menu__left__button {
+  position: relative;
+  transform: translateX(-72px);
+}
+
+.home__menu__button__die {
+  width: 280px;
+  height: 56px;
+}
+
+.home__menu__button__icon-left {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 36px;
+  height: 36px;
+}
+
+.home__menu__right__button {
+  position: relative;
+  transform: translateX(72px);
+}
+
+.home__menu__button__icon-right {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 36px;
+  height: 36px;
+}
+
+@media (width < 375px) {
+  .home__menu__left__button {
+    transform: translateX(-60px);
+  }
+
+  .home__menu__right__button {
+    transform: translateX(60px);
+  }
+}
+
+.home__menu__button__hunt {
+  min-width: 84px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background: url('./public/lion-trail.webp') 0 / 100% 100% no-repeat;
+  -webkit-text-stroke: 1px gold;
+}

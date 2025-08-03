@@ -16,8 +16,8 @@
 </script>
 
 <template>
-  <div class="m-auto w-[55px] h-[55px] bg-white rounded-full overflow-hidden">
-    <img :src="avatarUrl" alt="avatar" class="w-full h-full object-cover" />
+  <div class="home__header__avatar">
+    <img :src="avatarUrl" alt="avatar" />
   </div>
 </template>
 

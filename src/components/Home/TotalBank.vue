@@ -48,10 +48,8 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="mb-3 text-center font-bold">
-    <p
-      class="glowing-text mb-1 text-6xl max-[375px]:text-5xl font-semibold bg-gradient-to-b from-yellow-200 to-yellow-400 text-transparent bg-clip-text"
-    >
+  <div class="home__total-bank">
+    <p class="home__total-bank__paragraph glowing-text">
       {{ formatNumber(countTotalBank) }}
     </p>
     <p>Общий банк</p>
