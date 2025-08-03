@@ -569,3 +569,195 @@ body {
   font-size: 14px;
   font-weight: 700;
 }
+
+.hunt {
+  padding-top: 48px;
+}
+
+.hunt__container {
+  padding: 0 36px;
+  position: relative;
+}
+
+@media (width < 375px) {
+  .hunt__container {
+    padding: 0 24px;
+  }
+}
+
+.hunt__navigation {
+  padding-top: 20px;
+}
+
+.hunt__navigation__container {
+  max-width: 144px;
+  margin: 0 auto;
+  font-size: 10px;
+  font-weight: 700;
+  background: gold;
+  border-radius: 12px;
+}
+
+.hunt__navigation__container span {
+  display: inline-block;
+  padding: 2px 8px 2px 8px;
+  text-align: center;
+  width: 72px;
+  border-radius: 12px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.hunt__navigation__container__button-active {
+  background: #000;
+}
+
+.hunt__deadline-sheet {
+  margin-top: 64px;
+  padding-left: 12px;
+  font-weight: 700;
+}
+
+.hunt__deadline-sheet__title {
+  color: gold;
+}
+
+.hunt__deadline-sheet__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hunt__deadline-sheet__list__item {
+  padding: 2px 12px 2px 12px;
+  line-height: 18px;
+  border-radius: 16px;
+  background: gold;
+}
+
+.hunt__subscription {
+  margin-top: 8px;
+}
+
+.hunt__subscription__title {
+  margin-bottom: 4px;
+  padding-left: 12px;
+  font-weight: 700;
+  color: gold;
+}
+
+.hunt__subscription__list {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.hunt__subscription__list__card {
+  margin-bottom: 8px;
+  display: flex;
+  background: gold;
+  border-radius: 8px;
+}
+
+.hunt__deadline-sheet__list__item__left {
+  padding-top: 4px;
+  margin-right: 4px;
+  width: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+}
+
+.hunt__deadline-sheet__list__item__left h3 {
+  font-size: 12px;
+}
+
+.hunt__deadline-sheet__list__item__left__img-rookie {
+  margin-bottom: 8px;
+  width: 44px;
+}
+
+.hunt__deadline-sheet__list__item__left__img-fighter {
+  margin-bottom: 8px;
+  width: 64px;
+  height: 54px;
+}
+
+.hunt__deadline-sheet__list__item__left__img-veteran {
+  margin-bottom: 8px;
+  width: 80px;
+  height: 56px;
+}
+
+.hunt__deadline-sheet__list__item__left button {
+  padding: 2px 0;
+  width: 100%;
+  border-width: 3px;
+  border-radius: 30px;
+  font-size: 9px;
+}
+
+.hunt__deadline-sheet__list__item__right__price-advantage {
+  padding-left: 14px;
+  font-size: 12px;
+  color: #00bf63;
+  font-weight: 700;
+}
+.hunt__deadline-sheet__list__item__right__price-advantage__info {
+  display: flex;
+  align-items: center;
+}
+
+.hunt__deadline-sheet__list__item__right__price-advantage__info__price-text {
+  margin-right: 8px;
+}
+
+.hunt__deadline-sheet__list__item__right__price-advantage__info__price {
+  font-size: 16px;
+  color: white;
+}
+
+.hunt__deadline-sheet__list__item__right__price-advantage p {
+  line-height: 0;
+}
+
+.hunt__deadline-sheet__list__item__right__info-list {
+  margin-top: 12px;
+}
+
+.hunt__deadline-sheet__list__item__right__info-list__item {
+  display: flex;
+  align-items: center;
+  font-size: 7px;
+  font-weight: 700;
+}
+
+.hunt__deadline-sheet__list__item__right__info-list__item span {
+  margin-right: 4px;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background: black;
+}
+
+.hunt__deadline-sheet__list__item__right__info {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.hunt__deadline-sheet__list__item__right__info img {
+  margin-right: 4px;
+  width: 8px;
+  height: 16px;
+}
+
+.hunt__deadline-sheet__list__item__right__info div {
+  line-height: 9px;
+  font-size: 7px;
+  font-weight: 700;
+}
+
+.hunt__deadline-sheet__list__item__right__info div span {
+  display: block;
+}

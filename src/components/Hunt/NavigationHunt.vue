@@ -6,17 +6,21 @@ const store = useActiveBlockStore();
 </script>
 
 <template>
-  <nav class="pt-20 flex">
-    <div class="max-w-36 m-auto bg-gold-card rounded-xl text-[10px] font-bold">
+  <nav class="hunt__navigation">
+    <div class="hunt__navigation__container">
       <span
-        class="inline-block py-0.5 w-18 px-2 text-center rounded-xl duration-300 cursor-pointer"
-        :class="{ 'bg-metal-home': store.activeBlockHunt === 'subscriptions' }"
+        :class="{
+          'hunt__navigation__container__button-active':
+            store.activeBlockHunt === 'subscriptions',
+        }"
         @click="() => onActiveBlock('subscriptions')"
         >Подписки</span
       >
       <span
-        class="inline-block py-0.5 w-18 px-2 text-center rounded-xl duration-300 cursor-pointer"
-        :class="{ 'bg-metal-home': store.activeBlockHunt === 'equipment' }"
+        :class="{
+          'hunt__navigation__container__button-active':
+            store.activeBlockHunt === 'equipment',
+        }"
         @click="() => onActiveBlock('equipment')"
         >Снаряга</span
       >
