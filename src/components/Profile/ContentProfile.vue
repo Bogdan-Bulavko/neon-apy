@@ -1,23 +1,20 @@
 <script setup></script>
 
 <template>
-  <div class="mt-3 w-full relative">
-    <span class="block m-auto w-[89px] h-[89px] bg-white rounded-full"></span>
-    <div class="absolute right-0 top-1">
-      <img src="./img/info.png" alt="info" class="w-6" />
+  <div class="profile__info">
+    <div class="profile__info__avatar"></div>
+    <div class="profile__info__avatar__clue">
+      <img src="./img/info.png" alt="info" />
     </div>
-    <div class="mt-1 flex justify-center gap-1">
-      <a href="#" class="text-[10px] font-bold"
-        >https://t.me/m5bank_bot?star...</a
-      ><img src="./img/copy.png" alt="copy" class="w-[14px] h-[14px]" />
+    <div class="profile__info__link">
+      <a href="#">https://t.me/m5bank_bot?star...</a
+      ><img src="./img/copy.png" alt="copy" />
     </div>
   </div>
-  <div>
-    <p class="pl-2 font-bold text-gold">Возможности</p>
-    <div
-      class="p-1 flex justify-center gap-10 items-center bg-gold-card rounded-full"
-    >
-      <img src="./img/possibilities.webp" alt="possibilities" class="w-11" />
+  <div class="profile__possibilities">
+    <p class="profile__possibilities__title">Возможности</p>
+    <div class="profile__possibilities__card">
+      <img src="./img/possibilities.webp" alt="possibilities" />
       <span class="font-bold">Рефералы</span>
     </div>
   </div>

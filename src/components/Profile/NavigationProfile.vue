@@ -6,17 +6,21 @@ const store = useActiveBlockStore();
 </script>
 
 <template>
-  <nav class="pt-5 flex">
-    <div class="max-w-36 m-auto bg-gold-card rounded-xl text-[10px] font-bold">
+  <nav class="profile__navigation">
+    <div class="profile__navigation__container">
       <span
-        class="inline-block py-0.5 w-18 px-2 text-center rounded-xl duration-300 cursor-pointer"
-        :class="{ 'bg-metal-home': store.activeBlockProfile === 'profile' }"
+        :class="{
+          'profile__navigation__container__button-active':
+            store.activeBlockProfile === 'profile',
+        }"
         @click="() => onActiveBlock('profile')"
         >Профиль</span
       >
       <span
-        class="inline-block py-0.5 w-18 px-2 text-center rounded-xl duration-300 cursor-pointer"
-        :class="{ 'bg-metal-home': store.activeBlockProfile === 'wallet' }"
+        :class="{
+          'profile__navigation__container__button-active':
+            store.activeBlockProfile === 'wallet',
+        }"
         @click="() => onActiveBlock('wallet')"
         >Кошелёк</span
       >

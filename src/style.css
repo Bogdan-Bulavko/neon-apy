@@ -21,6 +21,17 @@ body {
   margin: 0 auto;
 }
 
+.button-back-home {
+  position: absolute;
+  top: 50px;
+  z-index: 10;
+}
+
+.button-back-home svg {
+  width: 32px;
+  height: 32px;
+}
+
 .home {
   min-height: 100dvh;
   overflow: hidden;
@@ -95,7 +106,7 @@ body {
 
 .home__central-content {
   position: relative;
-  margin: auto 0;
+  margin: 0 auto;
   width: 280px;
   height: 288px;
 }
@@ -373,4 +384,188 @@ body {
   align-items: flex-end;
   background: url('./public/lion-trail.webp') 0 / 100% 100% no-repeat;
   -webkit-text-stroke: 1px gold;
+}
+
+.profile__container {
+  padding: 0 36px;
+  position: relative;
+}
+
+@media (width < 375px) {
+  .profile__container {
+    padding: 0 24px;
+  }
+}
+
+.profile__navigation {
+  padding-top: 20px;
+}
+
+.profile__navigation__container {
+  max-width: 144px;
+  margin: 0 auto;
+  font-size: 10px;
+  font-weight: 700;
+  background: gold;
+  border-radius: 12px;
+}
+
+.profile__navigation__container span {
+  display: inline-block;
+  padding: 2px 8px 2px 8px;
+  text-align: center;
+  width: 72px;
+  border-radius: 12px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.profile__navigation__container__button-active {
+  background: #000;
+}
+
+.profile__info {
+  position: relative;
+  margin-top: 12px;
+  width: 100%;
+}
+
+.profile__info__avatar {
+  margin: 0 auto;
+  height: 89px;
+  width: 89px;
+  background: white;
+  border-radius: 100%;
+}
+
+.profile__info__avatar__clue {
+  position: absolute;
+  right: 0;
+  top: 4px;
+}
+
+.profile__info__avatar__clue img {
+  width: 24px;
+}
+
+.profile__info__link {
+  margin-top: 4px;
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.profile__info__link img {
+  width: 14px;
+  height: 14px;
+}
+
+.profile__possibilities {
+  font-weight: 700;
+}
+
+.profile__possibilities__title {
+  padding-left: 8px;
+  color: gold;
+}
+
+.profile__possibilities__card {
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  background: gold;
+  border-radius: 30px;
+}
+
+.profile__possibilities__card img {
+  width: 44px;
+}
+
+.profile__wallet {
+  margin-top: 12px;
+  width: 100%;
+}
+
+.profile__wallet__status {
+  margin: 36px auto 0 auto;
+  max-width: 144px;
+  background: gold;
+  border-radius: 12px;
+  font-size: 10px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.profile__wallet__info-profit {
+  margin-top: 56px;
+}
+
+.profile__wallet__info-profit__container {
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile__wallet__info-profit__card {
+  padding: 8px 12px 8px 12px;
+  display: flex;
+  gap: 12px;
+  background: gold;
+  border-radius: 16px;
+}
+
+.profile__wallet__info-profit__card img {
+  width: 36px;
+}
+
+@media (width < 375px) {
+  .profile__wallet__info-profit__card img {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+.profile__wallet__info-profit__card__info {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.profile__wallet__info-profit__card__info p {
+  line-height: 12px;
+}
+
+.profile__wallet__info-profit__card__info span {
+  color: red;
+  font-size: 14px;
+}
+
+.profile__wallet__info-profit__token {
+  padding: 4px 0 4px 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  background: gold;
+  border-radius: 10px;
+}
+
+.profile__wallet__info-profit__token svg {
+  width: 52px;
+  height: 48px;
+}
+
+.profile__wallet__actions__card {
+  margin: 0 auto;
+  display: block;
+  min-width: 180px;
+  padding: 8px 0 8px 0;
+  margin-bottom: 20px;
+  background: gold;
+  border-radius: 16px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
 }
