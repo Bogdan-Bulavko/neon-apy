@@ -1,7 +1,9 @@
-<script setup></script>
+<script setup>
+import Personage from '../Personage.vue';
+</script>
 
 <template>
-  <div>Снаряга</div>
+  <Personage></Personage>
 </template>
 
 <style scoped></style>

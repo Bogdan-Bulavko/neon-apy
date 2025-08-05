@@ -1,23 +1,21 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 
-const avatarUrl = ref('/default-avatar.png');
-
-onMounted(() => {
-  const tg = window.Telegram.WebApp;
-  if (!tg) return;
-
-  tg.ready();
-  const user = tg.initDataUnsafe.user;
-  if (user.photo_url) {
-    avatarUrl.value = user.photo_url;
+const user = ref(null);
+onMounted(async () => {
+  if (window.Telegram && window.Telegram.WebApp) {
+    user.value = window.Telegram.WebApp.initDataUnsafe?.user || null;
   }
+  console.log(user.value, window.Telegram);
 });
 </script>
 
 <template>
-  <div class="home__header__avatar">
-    <img :src="avatarUrl" alt="avatar" />
+  <div v-if="user" class="home__header__avatar">
+    <img :src="user.photo_url" alt="User avatar" />
+  </div>
+  <div v-else class="home__header__avatar bg-white flex justify-center">
+    <span class="text-sm text-gray-500">?</span>
   </div>
 </template>
 

@@ -49,7 +49,6 @@ body {
   margin: auto;
   width: 55px;
   height: 55px;
-  background: white;
   border-radius: 100%;
   overflow: hidden;
 }
@@ -63,10 +62,12 @@ body {
 .home__timer {
   margin-bottom: 28px;
   display: flex;
+  gap: 1px;
   justify-content: center;
 }
 
 .home__timer__time {
+  text-align: center;
   font-size: 34px;
   font-weight: 700;
 }
@@ -760,4 +761,13 @@ body {
 
 .hunt__deadline-sheet__list__item__right__info div span {
   display: block;
+}
+
+.personge__container {
+  margin-top: 50px;
+  background: white;
+}
+
+.personage {
+  margin: auto;
 }
