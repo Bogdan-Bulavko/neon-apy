@@ -576,7 +576,6 @@ const equipmentData = {
 <rect x="7" y="56" width="49" height="7" fill="#D7A332"/>
 <rect x="7" y="35" width="7" height="7" fill="#9F2222"/>
 <rect y="21" width="7" height="7" fill="#9F2222"/>
-<rect width="7" height="7" fill="#9F2222"/>
 <rect x="35" y="21" width="7" height="7" fill="#9F2222"/>
 <rect x="35" width="14" height="7" fill="#9F2222"/>
 <rect x="42" y="14" width="7" height="7" fill="#9F2222"/>

@@ -832,5 +832,5 @@ body {
 
 .body-part__change--active {
   transition: 0.7s;
-  box-shadow: 0 0 35px gold;
+  box-shadow: 0 0 35px white;
 }

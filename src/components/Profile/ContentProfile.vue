@@ -1,8 +1,10 @@
-<script setup></script>
+<script setup>
+import Avatar from '../Avatar.vue';
+</script>
 
 <template>
   <div class="profile__info">
-    <div class="profile__info__avatar"></div>
+    <Avatar></Avatar>
     <div class="profile__info__avatar__clue">
       <img src="./img/info.png" alt="info" />
     </div>
