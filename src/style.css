@@ -765,10 +765,68 @@ body {
 
 .personge__container {
   margin-top: 50px;
+  min-height: 279px;
   background: white;
 }
 
 .personage {
+  min-height: 279px;
+  position: relative;
   width: 100%;
   margin: auto;
+}
+
+.personage__head {
+  position: absolute;
+  left: 41px;
+}
+
+.personage__hands {
+  position: absolute;
+  top: 101px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+.personage__torso {
+  position: absolute;
+  top: 139px;
+  left: 137px;
+}
+
+.personage__legs {
+  position: absolute;
+  bottom: 1px;
+  left: 109px;
+}
+
+.equipment {
+  margin-top: 20px;
+}
+
+.equipment__title {
+  margin-bottom: 4px;
+  font-weight: 700;
+  font-size: 18px;
+  color: gold;
+}
+
+.equipment__body-part__title {
+  margin-bottom: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  color: gold;
+}
+
+.equipment__body-part__container {
+  display: flex;
+  gap: 3px;
+}
+
+.equipment__body-part__change {
+  padding: 5px 7px;
+  background: gold;
+  border-radius: 30px;
+  cursor: pointer;
 }
