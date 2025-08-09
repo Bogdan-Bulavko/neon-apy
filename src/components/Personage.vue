@@ -644,8 +644,17 @@ const personage = ref({
   legs: equipmentData.default.legs,
 });
 
+const bodyPartChangeActive = ref({
+  head: 'default',
+  hands: 'default',
+  torso: 'default',
+  legs: 'default',
+});
+
 const changedEquipment = (partBody, equipment) => {
   personage.value[partBody] = equipmentData[equipment][partBody];
+
+  bodyPartChangeActive.value[partBody] = equipment;
 };
 </script>
 
@@ -698,12 +707,20 @@ const changedEquipment = (partBody, equipment) => {
       <div class="equipment__body-part__container">
         <div
           class="equipment__body-part__change"
+          :class="{
+            'body-part__change--active':
+              bodyPartChangeActive.head === 'default',
+          }"
           @click="() => changedEquipment('head', 'default')"
         >
           По умолчанию
         </div>
         <div
           class="equipment__body-part__change"
+          :class="{
+            'body-part__change--active':
+              bodyPartChangeActive.head === 'ironMan',
+          }"
           @click="() => changedEquipment('head', 'ironMan')"
         >
           Железный Человек
@@ -715,12 +732,20 @@ const changedEquipment = (partBody, equipment) => {
       <div class="equipment__body-part__container">
         <div
           class="equipment__body-part__change"
+          :class="{
+            'body-part__change--active':
+              bodyPartChangeActive.torso === 'default',
+          }"
           @click="() => changedEquipment('torso', 'default')"
         >
           По умолчанию
         </div>
         <div
           class="equipment__body-part__change"
+          :class="{
+            'body-part__change--active':
+              bodyPartChangeActive.torso === 'ironMan',
+          }"
           @click="() => changedEquipment('torso', 'ironMan')"
         >
           Железный Человек
@@ -732,12 +757,20 @@ const changedEquipment = (partBody, equipment) => {
       <div class="equipment__body-part__container">
         <div
           class="equipment__body-part__change"
+          :class="{
+            'body-part__change--active':
+              bodyPartChangeActive.hands === 'default',
+          }"
           @click="() => changedEquipment('hands', 'default')"
         >
           По умолчанию
         </div>
         <div
           class="equipment__body-part__change"
+          :class="{
+            'body-part__change--active':
+              bodyPartChangeActive.hands === 'ironMan',
+          }"
           @click="() => changedEquipment('hands', 'ironMan')"
         >
           Железный Человек
@@ -749,12 +782,20 @@ const changedEquipment = (partBody, equipment) => {
       <div class="equipment__body-part__container">
         <div
           class="equipment__body-part__change"
+          :class="{
+            'body-part__change--active':
+              bodyPartChangeActive.legs === 'default',
+          }"
           @click="() => changedEquipment('legs', 'default')"
         >
           По умолчанию
         </div>
         <div
           class="equipment__body-part__change"
+          :class="{
+            'body-part__change--active':
+              bodyPartChangeActive.legs === 'ironMan',
+          }"
           @click="() => changedEquipment('legs', 'ironMan')"
         >
           Железный Человек

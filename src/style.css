@@ -772,33 +772,30 @@ body {
 .personage {
   min-height: 279px;
   position: relative;
-  width: 100%;
+  width: 250px;
   margin: auto;
 }
 
 .personage__head {
   position: absolute;
-  left: 41px;
+  left: 22px;
 }
 
 .personage__hands {
   position: absolute;
   top: 101px;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
 }
 
 .personage__torso {
   position: absolute;
   top: 139px;
-  left: 137px;
+  left: 118px;
 }
 
 .personage__legs {
   position: absolute;
   bottom: 1px;
-  left: 109px;
+  left: 90px;
 }
 
 .equipment {
@@ -829,4 +826,11 @@ body {
   background: gold;
   border-radius: 30px;
   cursor: pointer;
+  font-size: 14px;
+  transition: 1s;
+}
+
+.body-part__change--active {
+  transition: 0.7s;
+  box-shadow: 0 0 35px gold;
 }
