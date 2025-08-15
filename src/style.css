@@ -486,6 +486,11 @@ body {
   width: 44px;
 }
 
+.profile__wallet__button-wallet {
+  max-width: 165px;
+  margin: 80px auto;
+}
+
 .profile__wallet {
   margin-top: 12px;
   width: 100%;

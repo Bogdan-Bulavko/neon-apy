@@ -1,12 +1,11 @@
 <script setup>
 import { TonConnectButton } from '@townsquarelabs/ui-vue';
 import { useTonWallet } from '@townsquarelabs/ui-vue';
-import { onMounted, ref } from 'vue';
 const wallet = useTonWallet();
 </script>
 
 <template>
-  <div class="profile__wallet">
+  <div class="profile__wallet" v-if="wallet">
     <div class="profile__wallet__status">Кошелёк привязан</div>
     <div class="profile__wallet__info-profit">
       <div class="profile__wallet__info-profit__container">
@@ -78,14 +77,15 @@ const wallet = useTonWallet();
           <p>Вывести</p>
         </button>
       </div>
+      <div class="profile__wallet__button-wallet">
+        <TonConnectButton></TonConnectButton>
+      </div>
     </div>
   </div>
 
-  <div v-if="wallet">
-    <span>Connected wallet: {{ wallet.name }}</span>
-    <span>Device: {{ wallet.device.appName }}</span>
+  <div v-else class="profile__wallet__button-wallet">
+    <TonConnectButton></TonConnectButton>
   </div>
-  <TonConnectButton></TonConnectButton>
 </template>
 
 <style scoped></style>
