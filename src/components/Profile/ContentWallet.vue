@@ -1,4 +1,9 @@
-<script setup></script>
+<script setup>
+import { TonConnectButton } from '@townsquarelabs/ui-vue';
+import { useTonWallet } from '@townsquarelabs/ui-vue';
+import { onMounted, ref } from 'vue';
+const wallet = useTonWallet();
+</script>
 
 <template>
   <div class="profile__wallet">
@@ -75,6 +80,12 @@
       </div>
     </div>
   </div>
+
+  <div v-if="wallet">
+    <span>Connected wallet: {{ wallet.name }}</span>
+    <span>Device: {{ wallet.device.appName }}</span>
+  </div>
+  <TonConnectButton></TonConnectButton>
 </template>
 
 <style scoped></style>

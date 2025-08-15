@@ -5,6 +5,8 @@ import App from './App.vue';
 import { createMemoryHistory, createRouter } from 'vue-router';
 import { createPinia } from 'pinia';
 
+import { TonConnectUIPlugin } from '@townsquarelabs/ui-vue';
+
 import Home from './pages/Home.vue';
 import Profile from './pages/Profile.vue';
 import Hunt from './pages/Hunt.vue';
@@ -22,6 +24,11 @@ const router = createRouter({
 
 const pinia = createPinia();
 const app = createApp(App);
+
+app.use(TonConnectUIPlugin, {
+  manifestUrl:
+    'https://bogdan-bulavko.github.io/neon-apy/tonconnect-manifest.json',
+});
 app.use(router);
 app.use(pinia);
 app.mount('#app');

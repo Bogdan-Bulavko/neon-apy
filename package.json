@@ -11,11 +11,14 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
+    "@telegram-apps/sdk-vue": "^2.0.30",
     "@tonconnect/sdk": "^3.2.0",
+    "@townsquarelabs/ui-vue": "^2.0.11-beta.0",
     "@vitejs/plugin-vue-jsx": "^4.2.0",
     "pinia": "^3.0.3",
     "tailwindcss": "^4.1.11",
     "vue": "^3.5.17",
+    "vue-demi": "^0.14.10",
     "vue-router": "^4.5.1"
   },
   "devDependencies": {

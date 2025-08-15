@@ -6,7 +6,6 @@ onMounted(async () => {
   if (window.Telegram && window.Telegram.WebApp) {
     user.value = window.Telegram.WebApp.initDataUnsafe?.user || null;
   }
-  console.log(user.value, window.Telegram);
 });
 </script>
 

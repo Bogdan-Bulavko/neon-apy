@@ -6,7 +6,7 @@ const returnDate = () => {
 };
 
 const timer = ref({
-  days: Math.floor(Math.floor(returnDate() / (3600000 * 24))),
+  days: Math.floor(returnDate() / (3600000 * 24)),
   hours: Math.floor(returnDate() / 3600000) % 24,
   minutes: Math.floor(returnDate() / 60000) % 60,
   seconds: Math.floor(returnDate() / 1000) % 60,
@@ -29,25 +29,33 @@ const interval = setInterval(() => {
 <template>
   <div class="home__timer">
     <div>
-      <p class="home__timer__time">{{ timer.days }}</p>
+      <p class="home__timer__time">
+        {{ timer.days > 9 ? timer.days : `0${timer.days}` }}
+      </p>
       <p class="home__timer__comment">Дней</p>
     </div>
 
     <span class="home__timer__disintegrator-time">:</span>
     <div>
-      <p class="home__timer__time">{{ timer.hours }}</p>
+      <p class="home__timer__time">
+        {{ timer.hours > 9 ? timer.hours : `0${timer.hours}` }}
+      </p>
       <p class="home__timer__comment">Часов</p>
     </div>
 
     <span class="home__timer__disintegrator-time">:</span>
     <div>
-      <p class="home__timer__time">{{ timer.minutes }}</p>
+      <p class="home__timer__time">
+        {{ timer.minutes > 9 ? timer.minutes : `0${timer.minutes}` }}
+      </p>
       <p class="home__timer__comment">Минут</p>
     </div>
 
     <span class="home__timer__disintegrator-time">:</span>
     <div>
-      <p class="home__timer__time">{{ timer.seconds }}</p>
+      <p class="home__timer__time">
+        {{ timer.seconds > 9 ? timer.seconds : `0${timer.seconds}` }}
+      </p>
       <p class="home__timer__comment">Секунд</p>
     </div>
   </div>
