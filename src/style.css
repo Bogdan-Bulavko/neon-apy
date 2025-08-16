@@ -38,7 +38,8 @@ body {
 }
 
 .home--container {
-  padding: 28px 28px 0 28px;
+  padding: 0 28px 0 28px;
+  padding-top: 40px;
 }
 
 .home__header {
@@ -389,6 +390,7 @@ body {
 
 .profile__container {
   padding: 0 36px;
+  padding-top: 40px;
   position: relative;
 }
 
@@ -582,6 +584,7 @@ body {
 
 .hunt__container {
   padding: 0 36px;
+  padding-top: 40px;
   position: relative;
 }
 
