@@ -1,7 +1,23 @@
 <script setup>
 import { TonConnectButton } from '@townsquarelabs/ui-vue';
 import { useTonWallet } from '@townsquarelabs/ui-vue';
+import { ref, watch } from 'vue';
+
 const wallet = useTonWallet();
+const balanceTonWallet = ref('Нисколько');
+
+const getBalanceTonWallet = async () => {
+  const adressWallet = wallet.value.account.address;
+
+  const request = await fetch(`https://tonapi.io/v2/accounts/${adressWallet}`);
+  const result = await request.json();
+
+  balanceTonWallet.value = result.balance;
+};
+
+watch(wallet, () => {
+  getBalanceTonWallet();
+});
 </script>
 
 <template>
@@ -10,10 +26,10 @@ const wallet = useTonWallet();
     <div class="profile__wallet__info-profit">
       <div class="profile__wallet__info-profit__container">
         <div class="profile__wallet__info-profit__card">
-          <img src="../Home/img/money.webp" alt="money" />
+          <img src="../Home/img/currency.png" alt="ton money" />
           <div class="profile__wallet__info-profit__card__info">
             <p>На балансе</p>
-            <span>30</span>
+            <span>{{ balanceTonWallet }}</span>
           </div>
         </div>
         <div class="profile__wallet__info-profit__card">
