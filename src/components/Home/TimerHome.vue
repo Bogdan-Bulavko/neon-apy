@@ -6,10 +6,10 @@ const returnDate = () => {
 };
 
 const timer = ref({
-  days: Math.floor(returnDate() / (3600000 * 24)),
-  hours: Math.floor(returnDate() / 3600000) % 24,
-  minutes: Math.floor(returnDate() / 60000) % 60,
-  seconds: Math.floor(returnDate() / 1000) % 60,
+  days: returnDate() <= 0 ? 0 : Math.floor(returnDate() / (3600000 * 24)),
+  hours: returnDate() <= 0 ? 0 : Math.floor(returnDate() / 3600000) % 24,
+  minutes: returnDate() <= 0 ? 0 : Math.floor(returnDate() / 60000) % 60,
+  seconds: returnDate() <= 0 ? 0 : Math.floor(returnDate() / 1000) % 60,
 });
 
 const interval = setInterval(() => {
@@ -22,6 +22,10 @@ const interval = setInterval(() => {
 
   if (date <= 0) {
     clearInterval(interval);
+    timer.value.days = 0;
+    timer.value.hours = 0;
+    timer.value.minutes = 0;
+    timer.value.seconds = 0;
   }
 }, 1000);
 </script>

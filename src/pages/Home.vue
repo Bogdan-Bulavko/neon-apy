@@ -18,7 +18,7 @@ import TotalBank from '../components/Home/TotalBank.vue';
     <Menu />
   </main>
 </template>
-
+<style scoped></style>
 <!-- <template> -->
 <!-- <main class="background">
     <div class="container">
@@ -30,5 +30,3 @@ import TotalBank from '../components/Home/TotalBank.vue';
     <Menu class="fade-slide-up" :style="{ '--delay': '1.2s' }" />
   </main>
 </template> -->
-
-<style scoped></style>
